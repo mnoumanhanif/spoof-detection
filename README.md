@@ -63,5 +63,3 @@ If you find this work helpful, please consider citing or referencing this reposi
 
 This project was completed as part of the **Generative AI (Fall 2025)** course.
 Special thanks to the open-source contributors of **Hugging Face** and **PyTorch** for enabling this research.
-
-Would you like me to **add a short project tagline and GitHub “About” text** (for the top of your repository page, under the title)? That makes the repo look much more professional and LinkedIn-ready.
