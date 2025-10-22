@@ -53,28 +53,6 @@ The project was developed as part of my **Generative AI course (Fall 2025)**. It
 
 ---
 
-### 💡 Future Work
-
-* Integrate **attention map visualization (Grad-CAM / Rollout)** to interpret decision regions.
-* Extend the project to **video-based spoof detection** (liveness detection).
-* Deploy the model as a **web demo** using Streamlit or FastAPI.
-
----
-
-### 📂 Repository Structure
-
-```
-📦 Spoof-Detection-ViT-Swin
- ┣ 📜 README.md
- ┣ 📓 Spoof_Detection_ViT_Swin.ipynb
- ┣ 📁 data/
- ┣ 📁 results/
- ┣ 📁 models/
- ┗ 📁 images/
-```
-
----
-
 ### 🧾 Citation
 
 If you find this work helpful, please consider citing or referencing this repository.
