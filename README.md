@@ -44,17 +44,6 @@ The project was developed as part of my **Generative AI course (Fall 2025)**. It
 
 ---
 
-### 📈 Results Summary
-
-| Model                    | Accuracy | Precision | Recall | F1-Score |
-| ------------------------ | -------- | --------- | ------ | -------- |
-| Vision Transformer (ViT) |          |           |        |          |
-| Swin Transformer         |          |           |        |          |
-
-*(Add your actual metrics once computed.)*
-
----
-
 ### 🧪 Key Learnings
 
 * Swin Transformer showed superior accuracy and faster convergence compared to ViT.
