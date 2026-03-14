@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model outputs and checkpoints
+vit-spoof-detector/
+swin-spoof-detector/
+checkpoints/
+outputs/
+runs/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Data
+data/
+*.csv
+*.tsv
+
+# Logs
+*.log
+wandb/
+
+# Environment variables
+.env
+.env.local
+
+# Test cache
+.pytest_cache/

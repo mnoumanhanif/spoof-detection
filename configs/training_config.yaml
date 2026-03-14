@@ -1,0 +1,29 @@
+# Training Configuration for Spoof Detection
+# Modify these values to customize training behavior.
+
+dataset:
+  name: "nguyenkhoa/celeba-spoof-for-face-antispoofing-test"
+  subset_size: 4000
+  test_size: 0.2
+  seed: 42
+
+models:
+  vit:
+    checkpoint: "google/vit-base-patch16-224-in21k"
+    output_dir: "./vit-spoof-detector"
+  swin:
+    checkpoint: "microsoft/swin-base-patch4-window7-224-in22k"
+    output_dir: "./swin-spoof-detector"
+
+training:
+  batch_size: 16
+  epochs: 3
+  learning_rate: 0.0002
+  save_steps: 100
+  eval_steps: 100
+  logging_steps: 10
+  save_total_limit: 2
+
+labels:
+  - "real"
+  - "spoof"
